@@ -31,7 +31,8 @@ def generateFeatures(Temp):
     return [[f0,f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11,f12,f13,f14]]
 
 try:
-    db = MySQLdb.connect(host="localhost",user="root",passwd="equipohar123",db="testing_har") 
+    db = MySQLdb.connect(host="45.79.179.228",user="root",passwd="equipohar123",db="testing_har") 
+    print "connected to database"
 except:
     print "I am unable to connect to the database"
 
